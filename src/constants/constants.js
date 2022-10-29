@@ -15,7 +15,7 @@ export const projects = [
       "Most routes in this app is protected, it's only when a user is logged that pages can be rendered and resoures from the server can be accessed. A user can update his profile and, create, read, update and delete job from the server. This app also has sort, filter funtionality for jobs and  the charts of pending applications, interviews scheduled, and jobs declined is displayed using react rechart library",
     image: "./images/job-img.jpg",
     tags: ["React", "Redux", "Styled-Components"],
-    source: "https://job-site-app-osifojohn.netlify.app",
+    source: "https://job-tracking-app-osifojohn.netlify.app",
     visit: "https://github.com/osifojohn/job_tracking_app_redux-toolkit",
     id: 1,
   },
