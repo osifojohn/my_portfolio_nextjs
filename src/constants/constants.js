@@ -16,13 +16,13 @@ export const projects = [
     image: "./images/job-img.jpg",
     tags: ["React", "Redux", "Styled-Components"],
     source: "https://job-tracking-app-osifojohn.netlify.app",
-    visit: "https://github.com/osifojohn/job_tracking_app_redux-toolkit",
+    visit: "https://github.com/osifojohn/Job-Tracking-App",
     id: 1,
   },
   {
     title: "Movie App",
     description:
-      "This is a movie web app with infinite scroll functionality so that users don’t need to wait for movies to preload which keep the user engaged with the page by presenting them with new as they scroll down.",
+      "This is a movie web app with infinite scroll functionality so that users don’t need to wait for movies to preload which keep the user engaged with the page by presenting them with new content as they scroll down.",
     image: "./images/movie-img.jpg",
     tags: ["React", "JavaScript", "CSS"],
     source: "https://reactjs-movieapp-osifojohn.netlify.app",
