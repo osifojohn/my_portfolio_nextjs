@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ImageContainer = styled.div`
   text-align: center;
@@ -35,13 +35,19 @@ export const List = styled.ul`
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem 0;
+  gap: 1.5rem 0;
 `;
 
 export const ListItem = styled.li`
   list-style-type: none;
   display: grid;
+  align-items: start;
+  justify-content: start;
   color: inherit;
+  > p {
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
   h4 {
     font-size: 1.5rem;
   }

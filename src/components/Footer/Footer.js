@@ -1,7 +1,7 @@
-import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import React from 'react';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIcons } from '../Header/HeaderStyles';
 import {
   CompanyContainer,
   FooterWrapper,
@@ -12,7 +12,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from "./FooterStyles";
+} from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
 
         <LinkColumn>
           <LinkTitle>Resume</LinkTitle>
-          <LinkItem href="https://drive.google.com/file/d/1FirpcdiZgeK35K0hnGeBTbGeH2y5G8Y7/view">
+          <LinkItem href="https://drive.google.com/file/d/1McnK5B_bVvzwN5Q15GGzQvK6sD-HD3i5/view?usp=sharing">
             drive.google.com/file/...
           </LinkItem>
         </LinkColumn>

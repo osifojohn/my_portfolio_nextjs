@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import { SectionText } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection, RightSection, GridContainer } from "./HeroStyles";
+import { SectionText } from '../../styles/GlobalComponents';
+import Button from '../../styles/GlobalComponents/Button';
+import { LeftSection, RightSection, GridContainer } from './HeroStyles';
 
 const Hero = (props) => (
   <>
@@ -11,7 +11,7 @@ const Hero = (props) => (
         <h2> Hello, I'm </h2>
         <h1> Osifo John</h1>
 
-        <SectionText>Front-End Developer</SectionText>
+        <SectionText>Full-Stack Developer</SectionText>
       </LeftSection>
       <RightSection>
         <img src="./images/my-photo.jpg" alt="user photo" />

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Img = styled.img`
   width: 100%;
@@ -43,7 +43,7 @@ export const HeaderThree = styled.h3`
   /* color: #9cc9e3; */
 
   padding: 0.5rem 0;
-  font-size: ${(props) => (props.title ? "3rem" : "2rem")};
+  font-size: ${(props) => (props.title ? '3rem' : '2rem')};
 `;
 
 export const Hr = styled.hr`
@@ -58,7 +58,7 @@ export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
   color: #dce3e7;
-  font-family: "Droid Serif", serif;
+  font-family: 'Droid Serif', serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
@@ -100,9 +100,24 @@ export const ExternalLinks = styled.a`
 export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
+  line-height: 2.4rem;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 2rem;
 `;
 export const Tag = styled.li`
   color: #d8bfbf;
   font-size: 1.5rem;
+  @media (max-width: 506px) {
+    padding-right: 3.5rem;
+  }
+  @media (max-width: 470px) {
+    padding-right: 1rem;
+  }
+  @media (max-width: 400px) {
+    padding-right: 0.5rem;
+  }
+  @media (max-width: 400px) {
+    padding-right: 1rem;
+  }
 `;
