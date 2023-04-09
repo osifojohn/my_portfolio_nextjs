@@ -15,7 +15,7 @@ export const projects = [
       'React',
       'Taillwindcss',
     ],
-    source: 'https://movie-app-fullstack-osifojohn.vercel.app',
+    source: 'https://next13-fullstack-osifojohn.vercel.app',
     visit: 'https://github.com/osifojohn/netflix-clone-fullstack',
     id: 0,
   },
