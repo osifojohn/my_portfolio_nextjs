@@ -1,24 +1,24 @@
 export const projects = [
-  {
-    title: 'Fullstack Netflix Clone',
-    description:
-      'This web app is built with TypeScript and NextJS for seamless setup, MongoDB and Prisma for efficient database connection, and authentication through NextAuth with Google and Github login using cookie-based authentication. This web app boasts full responsiveness and detail-oriented effects and animations with TailwindCSS, offering an intuitive user experience. Optimal performance with React SWR data fetching and Zustand state management, making it the ultimate entertainment hub.',
-    image: './images/netflix-img.PNG',
-    tags: [
-      'TypeScript',
-      'Next13',
-      'Mongodb',
-      'Taillwindcss',
-      'Prisma',
-      'Zustand',
-      'Swr',
-      'React',
-      'Taillwindcss',
-    ],
-    source: 'https://next13-fullstack-osifojohn.vercel.app',
-    visit: 'https://github.com/osifojohn/netflix-clone-fullstack',
-    id: 0,
-  },
+  // {
+  //   title: 'Fullstack Netflix Clone',
+  //   description:
+  //     'This web app is built with TypeScript and NextJS for seamless setup, MongoDB and Prisma for efficient database connection, and authentication through NextAuth with Google and Github login using cookie-based authentication. This web app boasts full responsiveness and detail-oriented effects and animations with TailwindCSS, offering an intuitive user experience. Optimal performance with React SWR data fetching and Zustand state management, making it the ultimate entertainment hub.',
+  //   image: './images/netflix-img.PNG',
+  //   tags: [
+  //     'TypeScript',
+  //     'Next13',
+  //     'Mongodb',
+  //     'Taillwindcss',
+  //     'Prisma',
+  //     'Zustand',
+  //     'Swr',
+  //     'React',
+  //     'Taillwindcss',
+  //   ],
+  //   source: 'https://next13-fullstack-osifojohn.vercel.app',
+  //   visit: 'https://github.com/osifojohn/netflix-clone-fullstack',
+  //   id: 0,
+  // },
   {
     title: 'E-Commerce',
     description:
