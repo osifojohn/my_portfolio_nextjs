@@ -19,6 +19,16 @@ export const projects = [
   //   visit: 'https://github.com/osifojohn/netflix-clone-fullstack',
   //   id: 0,
   // },
+    {
+    title: 'Job Tracking App',
+    description:
+      "This app ensures security by protecting most routes, requiring user login for page rendering and server resource access. Users can seamlessly update their profiles and manage jobs—creating, reading, updating, and deleting them.  The app features sorting and filtering for jobs, along with visually informative charts using the React Recharts library to display pending applications, scheduled interviews, and declined jobs.",
+    image: './images/job-img.jpg',
+    tags: ['React', 'Redux', 'Styled-Components'],
+    source: 'https://job-tracking-app-osifojohn.netlify.app',
+    visit: 'https://github.com/osifojohn/Job-Tracking-App',
+    id: 2,
+  },
   {
     title: 'E-Commerce',
     description:
@@ -28,16 +38,6 @@ export const projects = [
     source: 'https://osifo-john-store.netlify.app',
     visit: 'https://github.com/osifojohn/ecommerce-app-osifojohn1',
     id: 1,
-  },
-  {
-    title: 'Job Tracking App',
-    description:
-      "Most routes in this app is protected, it's only when a user is logged that pages can be rendered and resoures from the server can be accessed. A user can update his profile and, create, read, update and delete job from the server. This app also has sort, filter funtionality for jobs and  the charts of pending applications, interviews scheduled, and jobs declined is displayed using react rechart library",
-    image: './images/job-img.jpg',
-    tags: ['React', 'Redux', 'Styled-Components'],
-    source: 'https://job-tracking-app-osifojohn.netlify.app',
-    visit: 'https://github.com/osifojohn/Job-Tracking-App',
-    id: 2,
   },
   {
     title: 'Movie App',
