@@ -27,7 +27,7 @@ export const projects = [
     tags: ['React', 'Redux', 'Styled-Components'],
     source: 'https://job-tracking-app-osifojohn.netlify.app',
     visit: 'https://github.com/osifojohn/Job-Tracking-App',
-    id: 2,
+    id: 1,
   },
   {
     title: 'E-Commerce',
@@ -37,7 +37,7 @@ export const projects = [
     tags: ['JavaScript', 'React', 'SCSS'],
     source: 'https://osifo-john-store.netlify.app',
     visit: 'https://github.com/osifojohn/ecommerce-app-osifojohn1',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Movie App',
