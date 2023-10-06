@@ -19,15 +19,34 @@ export const projects = [
   //   visit: 'https://github.com/osifojohn/netflix-clone-fullstack',
   //   id: 0,
   // },
-    {
+  {
+    title: 'Invoice Management App',
+    description:
+      'In a world where time is money, this ongoing fullstack app is designed to be the ultimate time-saving companion for freelancers, entrepreneurs, and business owners alike. Say goodbye to stacks of paper invoices and the hassle of manually tracking payments. With this app, generating, sending, managing invoices, and gaining financial insights will be as simple as a few taps and clicks.',
+    image: './images/invoicester.png',
+    tags: [
+      'Nextjs',
+      'TypeScript',
+      'Nodejs',
+      'Expressjs',
+      'Redux',
+      'Tailwindcss',
+      'Expressjs',
+      'Mongodb',
+    ],
+    source: 'https://cashflownexus.vercel.app/',
+    visit: 'https://github.com/osifojohn/cashflownexus',
+    id: 1,
+  },
+  {
     title: 'Job Tracking App',
     description:
-      "This app ensures security by protecting most routes, requiring user login for page rendering and server resource access. Users can seamlessly update their profiles and manage jobs—creating, reading, updating, and deleting them.  The app features sorting and filtering for jobs, along with visually informative charts using the React Recharts library to display pending applications, scheduled interviews, and declined jobs.",
+      'This app ensures security by protecting most routes, requiring user login for page rendering and server resource access. Users can seamlessly update their profiles and manage jobs—creating, reading, updating, and deleting them.  The app features sorting and filtering for jobs, along with visually informative charts using the React Recharts library to display pending applications, scheduled interviews, and declined jobs.',
     image: './images/job-img.jpg',
     tags: ['React', 'Redux', 'Styled-Components'],
     source: 'https://job-tracking-app-osifojohn.netlify.app',
     visit: 'https://github.com/osifojohn/Job-Tracking-App',
-    id: 1,
+    id: 2,
   },
   {
     title: 'E-Commerce',
@@ -37,7 +56,7 @@ export const projects = [
     tags: ['JavaScript', 'React', 'SCSS'],
     source: 'https://osifo-john-store.netlify.app',
     visit: 'https://github.com/osifojohn/ecommerce-app-osifojohn1',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Movie App',
@@ -47,6 +66,6 @@ export const projects = [
     tags: ['React', 'JavaScript', 'CSS'],
     source: 'https://reactjs-movieapp-osifojohn.netlify.app',
     visit: 'https://github.com/osifojohn/reactjs-movieapp',
-    id: 3,
+    id: 4,
   },
 ];
