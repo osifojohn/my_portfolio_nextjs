@@ -32,7 +32,7 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Resume</LinkTitle>
           <LinkItem
-            href="https://drive.google.com/file/d/1KyOllHe4jn2qSIYqmbKJ_qpEQj_sLsq9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1d7ES3OBNlrWy11LMN-wBo4USZUXDBFQ4/view?usp=sharing"
             target="_blank"
           >
             drive.google.com/file/...
