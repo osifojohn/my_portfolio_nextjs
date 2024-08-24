@@ -7,8 +7,10 @@ import {
   SiTypescript,
   SiExpress,
   SiMongodb,
-  SiPrisma,
-  SiStyledcomponents,
+  SiJava,
+  SiSpringboot,
+  SiPostgresql,
+  SiDocker,
 } from 'react-icons/si';
 import { TbBrandNextjs, TbBrandReactNative } from 'react-icons/tb';
 
@@ -39,6 +41,18 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <div>
+          <SiJava size="3rem" />
+        </div>
+        <SectionText>Java</SectionText>
+      </ListItem>
+      <ListItem>
+        <div>
+          <SiSpringboot size="3rem" />
+        </div>
+        <SectionText>SpringBoot</SectionText>
+      </ListItem>
+      <ListItem>
+        <div>
           <DiReact size="3rem" />
         </div>
         <SectionText>React</SectionText>
@@ -49,11 +63,17 @@ const Technologies = () => (
         </div>
         <SectionText>Nextjs</SectionText>
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
         <div>
           <TbBrandReactNative size="3rem" />
         </div>
         <SectionText>React Native</SectionText>
+      </ListItem> */}
+      <ListItem>
+        <div>
+          <DiNodejs size="6rem" />
+        </div>
+        <SectionText>NodeJs</SectionText>
       </ListItem>
       <ListItem>
         <div>
@@ -80,35 +100,42 @@ const Technologies = () => (
         <SectionText>SASS</SectionText>
       </ListItem>
 
-      <ListItem>
+      {/* <ListItem>
         <div>
           <SiPrisma size="3rem" />
         </div>
         <SectionText>Prisma</SectionText>
-      </ListItem>
-      <ListItem>
-        <div>
-          <DiNodejs size="6rem" />
-        </div>
-        <SectionText>Nodejs</SectionText>
-      </ListItem>
-      <ListItem>
+      </ListItem> */}
+
+      {/* <ListItem>
         <div>
           <SiStyledcomponents size="5rem" />
         </div>
         <SectionText>Styled-Components</SectionText>
-      </ListItem>
+      </ListItem> */}
       <ListItem>
         <div>
           <SiExpress size="3rem" />
         </div>
-        <SectionText>Expressjs</SectionText>
+        <SectionText>ExpressJs</SectionText>
+      </ListItem>
+      <ListItem>
+        <div>
+          <SiPostgresql size="3rem" />
+        </div>
+        <SectionText>PostgreSQL</SectionText>
       </ListItem>
       <ListItem>
         <div>
           <SiMongodb size="3rem" />
         </div>
-        <SectionText>Mongodb</SectionText>
+        <SectionText>MongoDB</SectionText>
+      </ListItem>
+      <ListItem>
+        <div>
+          <SiDocker size="3rem" />
+        </div>
+        <SectionText>Docker</SectionText>
       </ListItem>
     </List>
   </Section>
